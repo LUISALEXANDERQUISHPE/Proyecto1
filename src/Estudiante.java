@@ -20,6 +20,31 @@ class Estudiante extends Persona {
         this.cursos = cursos;
     }
 
+    public float getPromCalifi() {
+        return this.promCalifi;
+    }
+
+    public void setPromCalifi(float promCalifi) {
+        this.promCalifi = promCalifi;
+    }
+
+    public String getDireccion() {
+        return this.direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public Curso[] getCursos() {
+        return this.cursos;
+    }
+
+    public void setCursos(Curso[] cursos) {
+        this.cursos = cursos;
+    }
+    
+
     @Override
     public String toString() {
         return "Estudiante" + super.toString() + "\n-Promedio:" + this.promCalifi
