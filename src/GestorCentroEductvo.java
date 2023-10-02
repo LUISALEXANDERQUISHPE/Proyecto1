@@ -9,8 +9,9 @@
  */
 public class GestorCentroEductvo {
 
-    Curso[] cursos;
-    Persona[] personas;
+    private Curso[] cursos;
+    private Estudiante[] estudiantes;
+    private Profesor profesores;
     
     void ImprimirReporteInscritos() {
         System.out.println("Reporte de personas Inscritas");
