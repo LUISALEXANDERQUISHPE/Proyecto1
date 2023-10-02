@@ -9,9 +9,9 @@
  */
 public class GestorCentroEductvo {
 
-    private Curso[] cursos;
-    private Estudiante[] estudiantes;
-    private Profesor[] profesores;
+    private Curso[] cursos = new Curso[10];
+    private Estudiante[] estudiantes= new Estudiante[10];
+    private Profesor[] profesores= new Profesor[10];
 
     public Curso[] getCursos() {
         return this.cursos;
