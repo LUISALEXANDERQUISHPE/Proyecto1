@@ -11,7 +11,7 @@ public class GestorCentroEductvo {
 
     Curso[] cursos;
     Persona[] personas;
-
+    
     void ImprimirReporteInscritos() {
         System.out.println("Reporte de personas Inscritas");
         for (Curso p : cursos) {
