@@ -24,10 +24,6 @@ public class GestorCentroEductvo {
 
     void imprimirPersonas() {
         System.out.println("Reporte de Personas");
-        for (Persona p : personas) {
-            if (p != null) {
-                System.out.println(p.Apellido1 + " " + p.nombre1);
-            }
-        }
+        
     }
 }
