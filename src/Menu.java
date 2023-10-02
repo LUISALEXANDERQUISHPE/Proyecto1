@@ -13,7 +13,8 @@ public class Menu {
         Teclado tec = new Teclado();
 
         GestorCentroEductvo gestor = new GestorCentroEductvo();
-        int op;
+        int op,fechNacmto,aniosExp,salario;
+        String cedula,nom1,nom2,apelldo1,apelldo2;
 
         Opciones();
         System.out.print("Opción:");
@@ -23,8 +24,15 @@ public class Menu {
                 System.out.println("Bienvenido a la opción 1");
                 break;
             case 2:
-                System.out.println("Bienvenido a la opción 2");
-
+                System.out.println("---Registro de Estudiantes-----");
+                System.out.print("Cédula:"); cedula=tec.Tec().next();
+                System.out.print("Primer Nombre:"); nom1=tec.Tec().next();
+                System.out.print("Segundo Nombre:");nom2=tec.Tec().next();
+                System.out.print("Apellido Paterno:"); apelldo1=tec.Tec().next();       
+                System.out.print("Apellido Materno:");apelldo2=tec.Tec().next();
+                System.out.print("Fecha de nacimiento(dd/mm/aaaa):");fechNacmto=tec.Tec().nextInt();
+                System.out.print("Años de experiencia:");aniosExp=tec.Tec().nextInt();
+                System.out.print("Salario:");salario=tec.Tec().nextInt();
                 break;
             case 3:
                 System.out.println("Bienvenido a la opción 3");
