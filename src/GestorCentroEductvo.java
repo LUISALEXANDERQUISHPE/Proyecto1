@@ -36,6 +36,7 @@ public class GestorCentroEductvo {
 
     void imprimirPersonas() {
         System.out.println("Reporte de Personas");
-        
+        System.out.println("Hola"); 
     }
+    
 }
