@@ -11,8 +11,20 @@ public class GestorCentroEductvo {
 
     private Curso[] cursos;
     private Estudiante[] estudiantes;
-    private Profesor profesores;
-    
+    private Profesor[] profesores;
+
+    public Curso[] getCursos() {
+        return this.cursos;
+    }
+
+    public Estudiante[] getEstudiantes() {
+        return this.estudiantes;
+    }
+
+    public Profesor[] getProfesores() {
+        return this.profesores;
+    }
+
     void ImprimirReporteInscritos() {
         System.out.println("Reporte de personas Inscritas");
         for (Curso p : cursos) {
