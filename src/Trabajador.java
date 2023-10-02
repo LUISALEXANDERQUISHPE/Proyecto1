@@ -16,6 +16,14 @@ public class Trabajador extends Persona {
         this.salario = salario;
     }
 
+    public float getSalario() {
+        return this.salario;
+    }
+
+    public void setSalario(float salario) {
+        this.salario = salario;
+    }
+
     @Override
     public String toString() {
         return "Trabajador" + super.toString() + "\nSalario:" + this.salario;
